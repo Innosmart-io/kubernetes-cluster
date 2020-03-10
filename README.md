@@ -8,6 +8,6 @@ Authors:
 
 # Kubernetes installation
 
-## Structure of the repository
+## Structure of the repository
 
 - **setup**: contains the different shell to execute on the different actors of the cluster
