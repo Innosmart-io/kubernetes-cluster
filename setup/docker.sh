@@ -14,7 +14,7 @@
 sudo apt-get update
 
 # Install packages to allow apt to use a repository over HTTPS
-sudo apt-get install \
+sudo apt-get install -y \
     apt-transport-https \
     ca-certificates \
     curl \
@@ -37,7 +37,7 @@ sudo apt-get update
 
 # Install the latest version of Docker Engine - Community and containerd, or go to the next 
 # step to install a specific version
-sudo apt-get install docker-ce docker-ce-cli containerd.io
+sudo apt-get install -y docker-ce docker-ce-cli containerd.io
 
 # Setup daemon.
 cat > /etc/docker/daemon.json <<EOF
